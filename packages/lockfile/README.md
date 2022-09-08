@@ -16,7 +16,7 @@ let json = lockfile.parse(file);
 
 console.log(json);
 
-let fileAgain = lockfile.stringify(json);
+let fileAgain = lockfile.stringify(json.object);
 
 console.log(fileAgain);
 ```
